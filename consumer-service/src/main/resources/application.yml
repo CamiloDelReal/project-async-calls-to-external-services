@@ -1,0 +1,14 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: consumer-service
+
+external:
+  customers:
+    base-url: http://localhost:9090/customers
+    paths:
+     name: name
+     contact: contact
+     address: address
